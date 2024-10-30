@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessTracker_software", "FitnessTracker_software\FitnessTracker_software.csproj", "{98B55BEB-B515-43C5-8BC0-11F5BCB6C601}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A4790AD8-ED53-4154-B157-7AF194171F13}"
+	ProjectSection(SolutionItems) = preProject
+		FitnessTracker_software\bin\Debug\Fitness.accdb = FitnessTracker_software\bin\Debug\Fitness.accdb
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98B55BEB-B515-43C5-8BC0-11F5BCB6C601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B55BEB-B515-43C5-8BC0-11F5BCB6C601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B55BEB-B515-43C5-8BC0-11F5BCB6C601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B55BEB-B515-43C5-8BC0-11F5BCB6C601}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CD479AC-0848-458C-A32F-35A578D65117}
+	EndGlobalSection
+EndGlobal

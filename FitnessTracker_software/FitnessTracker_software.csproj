@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{98B55BEB-B515-43C5-8BC0-11F5BCB6C601}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FitnessTracker_software</RootNamespace>
+    <AssemblyName>FitnessTracker_software</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Activities.Designer.cs">
+      <DependentUpon>Activities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aerobic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aerobic.Designer.cs">
+      <DependentUpon>Aerobic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateAccount.Designer.cs">
+      <DependentUpon>CreateAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cycling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cycling.Designer.cs">
+      <DependentUpon>Cycling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn_Class.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Progress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Progress.Designer.cs">
+      <DependentUpon>Progress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Running.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Running.Designer.cs">
+      <DependentUpon>Running.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setgoal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setgoal.Designer.cs">
+      <DependentUpon>Setgoal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Weight Lifting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weight Lifting.Designer.cs">
+      <DependentUpon>Weight Lifting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Swimming.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Swimming.Designer.cs">
+      <DependentUpon>Swimming.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Walking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Walking.Designer.cs">
+      <DependentUpon>Walking.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Activities.resx">
+      <DependentUpon>Activities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aerobic.resx">
+      <DependentUpon>Aerobic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateAccount.resx">
+      <DependentUpon>CreateAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cycling.resx">
+      <DependentUpon>Cycling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Progress.resx">
+      <DependentUpon>Progress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Running.resx">
+      <DependentUpon>Running.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setgoal.resx">
+      <DependentUpon>Setgoal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weight Lifting.resx">
+      <DependentUpon>Weight Lifting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Swimming.resx">
+      <DependentUpon>Swimming.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Walking.resx">
+      <DependentUpon>Walking.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mind_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defense_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire_heart_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\combo_chart_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\joyent_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdown_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_page_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdown_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goal_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walking_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tricycle_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weightlifting_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arms_up_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\running_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swimming_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dumbbell_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walking_96px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\running_96px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barbell_64.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
