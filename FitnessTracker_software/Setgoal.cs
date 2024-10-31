@@ -18,7 +18,7 @@ namespace FitnessTracker_software
         {
 
             InitializeComponent();
-            con1 = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|Database.accdb");
+            con1 = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\Fitness.accdb");
         }
 
         private void Button1_Click(object sender, EventArgs e)

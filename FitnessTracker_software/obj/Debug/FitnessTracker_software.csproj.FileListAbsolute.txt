@@ -89,3 +89,24 @@ C:\Users\hp\source\repos\assign\P00202427-JESSICA SHEMA-DDOCP\FitnessTracker_sof
 C:\Users\hp\source\repos\assign\P00202427-JESSICA SHEMA-DDOCP\FitnessTracker_software\obj\Debug\FitnessTracker_software.Swimming.resources
 C:\Users\hp\source\repos\assign\P00202427-JESSICA SHEMA-DDOCP\FitnessTracker_software\obj\Debug\FitnessTracker_software.Walking.resources
 C:\Users\hp\source\repos\assign\P00202427-JESSICA SHEMA-DDOCP\FitnessTracker_software\obj\Debug\FitnessTracker_software.csproj.GenerateResource.cache
+C:\Users\ASUS\Source\Repos\fitness\FitnessTracker_software\obj\Debug\FitnessTracker_software.csproj.AssemblyReference.cache
+C:\Users\ASUS\Source\Repos\fitness\FitnessTracker_software\bin\Debug\FitnessTracker_software.exe.config
+C:\Users\ASUS\Source\Repos\fitness\FitnessTracker_software\bin\Debug\FitnessTracker_software.exe
+C:\Users\ASUS\Source\Repos\fitness\FitnessTracker_software\bin\Debug\FitnessTracker_software.pdb
+C:\Users\ASUS\Source\Repos\fitness\FitnessTracker_software\obj\Debug\FitnessTracker_software.Activities.resources
+C:\Users\ASUS\Source\Repos\fitness\FitnessTracker_software\obj\Debug\FitnessTracker_software.Aerobic.resources
+C:\Users\ASUS\Source\Repos\fitness\FitnessTracker_software\obj\Debug\FitnessTracker_software.CreateAccount.resources
+C:\Users\ASUS\Source\Repos\fitness\FitnessTracker_software\obj\Debug\FitnessTracker_software.Cycling.resources
+C:\Users\ASUS\Source\Repos\fitness\FitnessTracker_software\obj\Debug\FitnessTracker_software.Home.resources
+C:\Users\ASUS\Source\Repos\fitness\FitnessTracker_software\obj\Debug\FitnessTracker_software.LogIn.resources
+C:\Users\ASUS\Source\Repos\fitness\FitnessTracker_software\obj\Debug\FitnessTracker_software.Progress.resources
+C:\Users\ASUS\Source\Repos\fitness\FitnessTracker_software\obj\Debug\FitnessTracker_software.Properties.Resources.resources
+C:\Users\ASUS\Source\Repos\fitness\FitnessTracker_software\obj\Debug\FitnessTracker_software.Running.resources
+C:\Users\ASUS\Source\Repos\fitness\FitnessTracker_software\obj\Debug\FitnessTracker_software.Setgoal.resources
+C:\Users\ASUS\Source\Repos\fitness\FitnessTracker_software\obj\Debug\FitnessTracker_software.Strength_Training.resources
+C:\Users\ASUS\Source\Repos\fitness\FitnessTracker_software\obj\Debug\FitnessTracker_software.Swimming.resources
+C:\Users\ASUS\Source\Repos\fitness\FitnessTracker_software\obj\Debug\FitnessTracker_software.Walking.resources
+C:\Users\ASUS\Source\Repos\fitness\FitnessTracker_software\obj\Debug\FitnessTracker_software.csproj.GenerateResource.cache
+C:\Users\ASUS\Source\Repos\fitness\FitnessTracker_software\obj\Debug\FitnessTracker_software.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Source\Repos\fitness\FitnessTracker_software\obj\Debug\FitnessTracker_software.exe
+C:\Users\ASUS\Source\Repos\fitness\FitnessTracker_software\obj\Debug\FitnessTracker_software.pdb

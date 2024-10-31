@@ -13,7 +13,7 @@ namespace FitnessTracker_software
 {
     public partial class Running : Form
     {
-        private const string ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|Database.accdb";
+        private const string ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\Fitness.accdb";
 
         public Running()
         {
